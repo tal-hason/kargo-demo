@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: kargo-demo
 spec:
-  type: ClusteroIP
+  type: ClusterIP
   selector:
     app: kargo-demo
   ports:
