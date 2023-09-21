@@ -4,5 +4,7 @@ kind: Kustomization
 resources:
 - ../../base
 - configmap.yaml
-
-
+images:
+- name: docker.io/library/nginx
+  newName: docker.io/library/nginx
+  newTag: 1.25.2
