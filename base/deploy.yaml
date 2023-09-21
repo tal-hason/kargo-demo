@@ -13,8 +13,8 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - name: nginx 
-        image: docker.io/library/nginx:placeholder
+      - name: hello-world
+        image: quay.io/argocicd/hello-world:placeholder
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
