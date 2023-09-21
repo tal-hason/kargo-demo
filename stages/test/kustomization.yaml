@@ -8,3 +8,6 @@ images:
 - name: nginx
   newName: nginx
   newTag: 1.25.2
+- name: registry.access.redhat.com/ubi8/nginx-122
+  newName: registry.access.redhat.com/ubi8/nginx-122
+  newTag: 1-32-source
