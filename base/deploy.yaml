@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx 
-        image: nginx:placeholder
+        image: registry.access.redhat.com/ubi8/nginx-122:placeholder
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
