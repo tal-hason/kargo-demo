@@ -15,6 +15,11 @@ spec:
       containers:
       - name: hello-world
         image: quay.io/argocicd/hello-world:placeholder
+        env:
+        - name: IMAGE
+          value: quay.io/argocicd/hello-world
+        - name: TAG
+          value: placeholder
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
