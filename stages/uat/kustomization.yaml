@@ -4,5 +4,7 @@ kind: Kustomization
 resources:
 - ../../base
 - configmap.yaml
-
-
+images:
+- name: quay.io/argocicd/hello-world
+  newName: quay.io/argocicd/hello-world
+  newTag: ver_b2afcf
