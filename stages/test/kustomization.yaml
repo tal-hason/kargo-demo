@@ -4,4 +4,7 @@ kind: Kustomization
 resources:
 - ../../base
 - configmap.yaml
-
+images:
+- name: nginx
+  newName: nginx
+  newTag: 1.25.2
